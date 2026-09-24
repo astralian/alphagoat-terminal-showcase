@@ -1,0 +1,23 @@
+{
+  "name": "alphagoat-risk-based-entry-example",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.26.0",
+  "engines": {
+    "node": ">=26.5.1 <27"
+  },
+  "scripts": {
+    "demo": "tsx src/demo.ts",
+    "check": "tsc --noEmit && vitest run",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "decimal.js": "10.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}
